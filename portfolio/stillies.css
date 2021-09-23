@@ -29,9 +29,10 @@ h1{
 .mypic{
     display: flex;
     border: 1px;
-    width: 50%;
+    width: 20%;
     height:300px;
     object-fit: cover;
+    overflow: hidden;
     
     
 }
