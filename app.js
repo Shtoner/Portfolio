@@ -18,7 +18,7 @@ const ctx=canvas.getContext("2d");
 
 var x=100
 var y=75
-var dx=1
+var dx=3
 
 
 function animate(){
