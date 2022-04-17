@@ -3,7 +3,7 @@ body{
     max-width: 100%;
     margin:0px;
     border:0px;
-    
+    overflow-x: hidden;
     
     
 }
@@ -20,7 +20,7 @@ body{
     display: flex;
     height:300px;
     width:100%;
-    background-color: chartreuse;
+    background-color: black;
     float: right;
     overflow: hidden;
     
@@ -29,14 +29,16 @@ body{
 .textintro{
     /* display: flex;
     flex-direction: row; */
+    color:white;
     margin-top: 75px;
     margin-right:200px;
     overflow: hidden;
 }
-h1{
+.top{
     position: absolute;
     top:0;
     left:0;
+    color:white;
 }
 .mypic{
     display: flex;
@@ -56,14 +58,15 @@ canvas{
     width:100%; */
     margin: 0px;
     display: block;
+    margin-bottom: 0em;
     
 }
 
-.about-me{
-    height: 100px;
+.contact-me{
+    height: 100%;
     width:100%;
-    background-color: purple;
-    margin-top: 0px;
+    background-color: white;
+    padding: 10px;
     
     
 }
@@ -71,7 +74,8 @@ canvas{
     display: flex;
     width:100%;
     height:100px;
-    background-color:red;
+    background-color:white;
+    font-size: 1.2em;
     
 
 }
@@ -79,5 +83,6 @@ canvas{
     height:100px;
     width:100%;
     background-color: aquamarine;
+    text-align: center;
     
 }
