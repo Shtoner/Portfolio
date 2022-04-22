@@ -51,9 +51,9 @@ function animate(){
     ctx.beginPath();
     ctx.arc(x,y,15,0,Math.PI*2,false);
     ctx.strokeStyle='white';
-    // ctx.fillStyle=rgb(255,255,255)
+    ctx.fillStyle='white'
+    ctx.fill()
     ctx.stroke();
-    // ctx.fill()
     
 
 
