@@ -1,2 +1,2 @@
 # Portfolio
-Self-made website linking previous projects
+Self-made website linking projects
